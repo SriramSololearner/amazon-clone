@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    height:65px;
+    background-color:black;
+    position: static;
+    top:1px;
+    z-index: 100;
+    position:sticky;
+    top:0px;
+
+}
+
+.header_logo{
+    
+    width:120px;
+    object-fit:contain;
+    margin:0px 20px;
+    margin-top:10px;
+}
+
+.header_search{
+    display: flex;
+    flex:1;
+    justify-content:center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_search_input{
+    margin: 15px 80px;
+    width:50rem;
+    height:39px;
+    font-size: 15px;
+    border:0;
+    border-radius: 0px 5px 5px 0px;
+}
+.search-icon{
+    width:50px !important;
+    height:38px !important;
+    padding: 10px;
+    position:relative;
+    right: 129px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: sandybrown;
+}
+.search-icon:hover{
+    background-color: rgb(245, 142, 52);
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-top:23px;
+    margin-left: 5px;
+    margin-right:35px;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.option1{
+    font-size: 11px;
+    font-family:monospace;
+    margin-bottom: -1px;
+}
+
+.option2{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.header_Shopping_Basket{
+    display:flex;
+    margin-top: 30px;
+    margin-right: 10px;
+    color: aliceblue;
+    text-decoration:underline;
+    text-decoration-color:rgb(48, 137, 238);
+}
+.cart_Counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(48, 137, 238);
+    border-radius: 100%;
+    width:25px;
+    height: 25px;
+    color:white;
+    position: relative;
+    font-size: 15px;
+    top:-18px; 
+    right:1px;
+}
